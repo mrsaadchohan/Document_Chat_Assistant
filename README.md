@@ -8,3 +8,12 @@ Welcome to Chat with PDF, a powerful app that lets you interactively chat with a
 - Powered by GPT-4 & LangChain — State-of-the-art language model and chain management
 - Efficient similarity search — FAISS vector search for fast retrieval
 - Streamlit UI — Clean, interactive, and easy to use interface
+
+
+## How It Works
+- Upload PDF — The app splits the PDF into smaller text chunks.
+- Embedding Generation — Each chunk is converted into vector embeddings using OpenAI Embeddings.
+- Vector Indexing — FAISS indexes these embeddings for quick similarity search.
+- Query Processing — When you ask a question, the app embeds your query and retrieves the most relevant chunks.
+- Answer Generation — GPT-4 processes the retrieved chunks and generates a contextual answer.
+  This approach is called Retrieval-Augmented Generation (RAG), allowing the LLM to use private or domain-specific data efficiently.
