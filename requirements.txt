@@ -1,0 +1,10 @@
+unstructured
+tiktoken
+faiss-cpu
+pypdf
+openai
+langchain
+pandas
+numpy
+python-dotenv
+streamlit
