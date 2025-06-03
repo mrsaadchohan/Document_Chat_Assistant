@@ -25,9 +25,9 @@ Python 3.8+
 OpenAI API key (for GPT-4 and embeddings
 
 ## Installation
-git clone https://github.com/yourusername/Document_Chat_Assistant
-cd Document_Chat_Assistant
-pip install -r requirements.txt
+- git clone https://github.com/mrsaadchohan/Document_Chat_Assistant
+- cd Document_Chat_Assistant
+- pip install -r requirements.txt
 
 ## Running the App
 streamlit run app.py
