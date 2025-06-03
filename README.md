@@ -17,3 +17,20 @@ Welcome to Chat with PDF, a powerful app that lets you interactively chat with a
 - Query Processing — When you ask a question, the app embeds your query and retrieves the most relevant chunks.
 - Answer Generation — GPT-4 processes the retrieved chunks and generates a contextual answer.
   This approach is called Retrieval-Augmented Generation (RAG), allowing the LLM to use private or domain-specific data efficiently.
+
+
+## Getting Started
+### Prerequisites
+Python 3.8+
+OpenAI API key (for GPT-4 and embeddings
+
+## Installation
+git clone https://github.com/yourusername/Document_Chat_Assistant
+cd Document_Chat_Assistant
+pip install -r requirements.txt
+
+## Running the App
+streamlit run app.py
+
+## Contributing
+Feel free to open issues or submit pull requests. Let's build the GenAI revolution together!
